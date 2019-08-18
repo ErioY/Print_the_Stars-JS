@@ -1,0 +1,32 @@
+<!--
+ * @Autor: ErioY
+ * @Date: 2019-08-11 12:07:06
+ * @Email: 1973545559@qq.com
+ * @Github: https://github.com/ErioY
+ * @LastEditors: ErioY
+ * @LastEditTime: 2019-08-11 12:10:39
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>n行n列星星</title>
+</head>
+<body>
+    <script>
+    // 用户输入行数和列数
+    var num1 = prompt("请输入要打印的星星的行数：");
+    var num2 = prompt("请输入要打印的星星的列数:");
+    var str = "";
+    for(var i = 0; i < parseInt(num1); i++) {
+        for(var j = 0; j < parseInt(num2); j++) {
+            str += "★";
+        }
+        str += "\n";
+    }
+    console.log(str);
+    </script>
+</body>
+</html>
